@@ -176,7 +176,7 @@ func printBanner() {
 `
 	fmt.Printf("%s%s%s\n", ColorCyan, banner, ColorReset)
 	fmt.Printf("%s                    Domain Enumeration Tool v2.0%s\n", ColorYellow, ColorReset)
-	fmt.Printf("%s                    github.com/yourusername/tldscanner%s\n\n", ColorPurple, ColorReset)
+	fmt.Printf("%s                    github.com/vijay922/tldscanner%s\n\n", ColorPurple, ColorReset)
 }
 
 func getWhoisInfo(domain string, timeout int) (*DomainInfo, error) {
